@@ -7,4 +7,4 @@ export default {
 	component: Main
 } as Meta
 
-export const Basic: Story = () => <Main />
+export const Basic: Story = (args) => <Main {...args} />

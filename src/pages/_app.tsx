@@ -8,6 +8,7 @@ function App({ Component, pageProps }: AppProps) {
 		<>
 			<Head>
 				<title>Boilerplate</title>
+				<link rel="manifest" href="/manifest.json" />
 			</Head>
 			<GlobalStyle />
 			<Component {...pageProps} />
